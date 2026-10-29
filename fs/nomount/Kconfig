@@ -2,7 +2,7 @@
 
 config NOMOUNT
 	tristate "NoMount Path Redirection Subsystem"
-	default n
+	default y
 	help
 	  NoMount allows path redirection and virtual file injection
 	  without mounting filesystems. Useful for systemless modifications.
